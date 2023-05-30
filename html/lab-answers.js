@@ -99,11 +99,11 @@ favMovies.reverse();
 // Use the shift method.
 favMovies.shift();
 
-// Unshift - what does it return?
+// Unshift
 favMovies.unshift("Avatar");
 // The unshift method returns the new length of the array.
 
-// Splice "Django Unchained" and add "Avatar" (try finding the index of "Django Unchained" instead of counting it yourself).
+// Splice "Django Unchained" and add "Avatar" 
 const index = favMovies.indexOf("Django Unchained");
 favMovies.splice(index, 1, "Avatar");
 
@@ -112,10 +112,10 @@ favMovies.splice(index, 1, "Avatar");
 const middleIndex = Math.floor(favMovies.length / 2);
 const secondHalf = favMovies.slice(middleIndex);
 
-// Store the value of your slice in a variable and console.log it.
+// Store the value of slice in a variable and console.log it.
 console.log(secondHalf);
 
-// Console.log your final results.
+// Console.log final results.
 console.log(favMovies);
 
 // After running the above tasks, console.log the index of "Fast and Furious".
